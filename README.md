@@ -1,4 +1,10 @@
-# Schéma du modèle
+# Modèles de langage d'après des chaînes de Markov
+
+Interface web permettant l'exploration de [chaînes de Markov](https://fr.wikipedia.org/wiki/Cha%C3%AEne_de_Markov) pour la [génération de texte](https://fr.wikipedia.org/wiki/Mod%C3%A8le_de_langage). Les modèles donnent les mots apparaissant le plus fréquemment après un mot donné. Les modèles sont au format JSON, selon le schéma décrit ci-dessous. Plusieurs sont donnés en exemple, tirés du [premier tome de la saga Harry Potter](https://fr.wikipedia.org/wiki/Harry_Potter_%C3%A0_l%27%C3%A9cole_des_sorciers) en français, avec différents paramètres (longueur des N-grammes considérés, niveau d'élagage).
+
+Accessible sur [https://ychalier-rlv.github.io/langage-markovien/](https://ychalier-rlv.github.io/langage-markovien/). Une démonstration de la génération de texte à partir d'une [grammaire formelle](https://fr.wikipedia.org/wiki/Grammaire_formelle) est également disponible sur [https://ychalier-rlv.github.io/langage-markovien/gabarit.html](https://ychalier-rlv.github.io/langage-markovien/gabarit.html).
+
+## Schéma du modèle
 
 Les modèles sont enregistrés au format JSON et encodés en UTF-8. Voici un exemple, à partir des phrase `il fait beau` et `il pleut`.
 
